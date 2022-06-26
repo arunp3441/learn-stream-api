@@ -7,7 +7,8 @@ public class StringPalindromeStream {
 	public static void main(String[] args) {
 		System.out.println("Is radar a Palindrome? - " + isPalindrome("radar"));
 		System.out.println("Is apple a Palindrome? - " + isPalindrome("apple"));
-		System.out.println("Is applpa a Palindrome? - " + isPalindrome("applpa"));
+		System.out.println("Is applppa a Palindrome? - " + isPalindrome("applppa"));
+		System.out.println("Is start a Palindrome? - " + isPalindrome("start"));
 	}
 
 	public static boolean isPalindrome(String originalString) { 
